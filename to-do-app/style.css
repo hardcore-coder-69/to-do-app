@@ -1,0 +1,90 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #282828;
+    color: lightgrey;
+}
+
+h1 {
+    text-align: center;
+}
+
+#todo-list {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #282828;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#new-task {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    background-color: #282828;
+    color: #fff;
+    font-size: 18px;
+}
+
+#add-task {
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #282828;
+    color: #fff;
+    border: 1px solid grey;
+    margin-left: 5px;
+    cursor: pointer;
+    height: 32px;
+}
+
+#add-task:hover {
+    background-color: #404040;
+}
+
+#task-list {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    max-height: 250px;
+    overflow: auto;
+}
+
+#task-list li {
+    list-style: none;
+    margin: 8px 5px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #505050;
+    border: 1px solid grey;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#task-list span {
+    width: 75%;
+    word-wrap: break-word;
+}
+
+.delete-task {
+    background-color: red;
+    color: #fff;
+    border: none;
+    margin-left: 8px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: fit-content;
+}
+
+.delete-task:hover {
+    background-color: darkred;
+}
